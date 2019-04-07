@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/add.css">
+    <title>添加页面</title>
+</head>
+
+<body>
+    <div class="box">
+        <div class="inp">
+            <div class="inp-box">
+                <span id="inpBox">0.00</span>
+            </div>
+        </div>
+        <div class="footer" id="keyword">
+            <section>
+                <p>7</p>
+                <p>4</p>
+                <p>1</p>
+                <p>.</p>
+            </section>
+            <section>
+                <p>8</p>
+                <p>5</p>
+                <p>2</p>
+                <p>0</p>
+            </section>
+            <section>
+                <p>9</p>
+                <p>6</p>
+                <p>3</p>
+                <p class="del">✘</p>
+            </section>
+            <section>
+                <p class="done">确定</p>
+            </section>
+        </div>
+    </div>
+</body>
+<script src="js/libs/require.js"></script>
+<script>
+    require(["js/main"], () => {
+        require(["add"])
+    })
+</script>
+
+</html>
